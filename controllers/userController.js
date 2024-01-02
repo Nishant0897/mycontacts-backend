@@ -65,7 +65,7 @@ const loginUser = asyncHandler(async (req, res) => {
     res.status(401);
     throw new Error("email or password is not valid");
   }
-});
+}); 
 
 //@desc Current user info
 //@route POST /api/users/current
